@@ -1,0 +1,13 @@
+@import '../main.scss';
+
+.Products{
+    margin: 0 auto;
+
+}
+
+.myproducts{
+    @include respond(phone){
+        width: 90%;
+    }
+
+}

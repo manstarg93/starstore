@@ -1,0 +1,16 @@
+@import '../main.scss';
+
+.Logo{
+    padding: 5px;
+}
+
+.LogoLink{
+  font-weight: bolder;
+  font-size: 20px;
+    text-decoration: none;
+    color: $colorWhite;
+    &:hover{
+        text-decoration: none;
+        color: $colorWhite;
+    }
+}

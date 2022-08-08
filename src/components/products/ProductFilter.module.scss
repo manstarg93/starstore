@@ -1,0 +1,30 @@
+@import '../../main.scss';
+
+.ProductFilter{
+   
+    text-align: end;
+    padding: 10px;
+
+    h4{
+        color: $colorDarkGrey;
+        text-align: start;
+        font-size: medium;
+        text-transform: uppercas;
+
+    }
+}
+
+.SelectInput{
+    margin: 10px auto;
+    width: 50%;
+
+    text-align: start;
+}
+
+.pathBreadCrumb{
+    
+    color: $colorDarkGrey;
+    font-style: italic;
+    padding-top: 5px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,42 @@
+@import '../../main.scss';
+
+
+.Card{
+    
+    @include boxShadow;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+    ;
+
+    &:hover{
+        @include boxShadowHover
+    }
+
+    @include respond(phone){
+        width: 80%;
+    }
+
+    img{
+        width: 100%;
+        max-height: 350px;
+       
+        min-height: 250px;
+
+        @include respond(tablet){
+            
+            max-height: auto;
+        }
+    }
+}
+
+.center{
+    background-position: center;
+}
+
+.none{
+    box-shadow: none;
+    &:hover{
+        box-shadow: none;
+    }
+}
